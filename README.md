@@ -12,7 +12,10 @@ You can install the `requests` library using pip:
 ```bash
 pip install requests
 
-Usage
+```bash
+
+**## Usage**
+
 Clone the repository (if applicable) or download the script.
 
 Update the API endpoint in the send_request_to_llama function if needed:
