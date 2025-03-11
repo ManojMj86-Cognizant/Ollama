@@ -14,7 +14,8 @@ pip install requests
 ```
 ### Usage
 
-Clone the repository (if applicable) or download the script.
+Clone the repository (if applicable) or download the script. 
+Make sure the Ollama application is running in background
 
 Update the API endpoint in the send_request_to_llama function if needed:
 
