@@ -12,7 +12,7 @@ You can install the `requests` library using pip:
 ```bash
 pip install requests
 ```
-### Usage
+## Usage
 
 Clone the repository (if applicable) or download the script. 
 Make sure the Ollama application is running in background
