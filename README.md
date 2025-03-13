@@ -29,13 +29,17 @@ This project allows you to chat with the Llama language model using a Python scr
     ```
     python llama_context_V1.py
     ```
-    
     Start chatting:
+    
     Type your message and press Enter.
+
     Type exit to stop the chat.
-2. For PDF extraction -->
-    Keep the pdf file in documents folder. Keep the document name copied.
-    Update the document path in the pdfreader.py file.
+
+2. For PDF extraction --> 
+
+    Keep the pdf file in documents folder. 
+    Keep the document name copied. Update the document path in the pdfreader.py file.
+
     Run the script:
     ```
     python pdfreader.py
