@@ -6,8 +6,7 @@ This project allows you to chat with the Llama language model using a Python scr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ManojMj86-Cognizant/Ollama.git
-   
+   git clone https://github.com/ManojMj86-Cognizant/Ollama.git   
 
 2. Create and activate the virtual environment: 
     ```bash
@@ -38,6 +37,7 @@ This project allows you to chat with the Llama language model using a Python scr
 2. For PDF extraction --> 
 
     Keep the pdf file in documents folder. 
+
     Keep the document name copied. Update the document path in the pdfreader.py file.
 
     Run the script:
