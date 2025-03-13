@@ -27,7 +27,7 @@ This project allows you to chat with the Llama language model using a Python scr
 1. Chat with Llama --> 
     Run the script:
     ```
-    python llama_contenxt_V1.py
+    python llama_context_V1.py
     ```
     
     Start chatting:
