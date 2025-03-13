@@ -1,7 +1,7 @@
 
 # THIS SCRIPT IS NOT WORKING VERY WELL, NEED REVISION
 
-from pptx import Presentation
+from pptx import Presentation # pip install python-pptx
 
 def extract_text_from_pptx_robust(pptx_path):
     """
