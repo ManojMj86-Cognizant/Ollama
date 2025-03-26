@@ -5,7 +5,7 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt, Signal, QObject, QThread
 from ollama import Client
-import styles  # Import the styles module
+import UI_Enabled.styles as styles  # Import the styles module
 
 # Ollama API setup
 client = Client(host='http://localhost:11434')
@@ -99,7 +99,7 @@ class OllamaChat(QWidget):
 
     def get_prompt(self):
         """Constructs the prompt with conversation history."""
-        system_message = "You are a professional assistant. Respond formally."
+        system_message = "You are a professional assistant Respond with conversation mode."
         prompt = f"{system_message}\n"
         for entry in conversation_history[-max_context_size:]:
             if entry["role"] == "user":
